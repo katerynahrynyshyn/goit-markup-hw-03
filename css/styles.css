@@ -41,18 +41,6 @@ section{
     padding-bottom: 120px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
 
 .container{
     width: 1158px;
@@ -197,16 +185,27 @@ section{
 /*------------------------------------ */
 /*-----------------ADVANTAGES------------------- */
 
-.advantages {}
+.advantages {
+    
+}
 
 .advantages-title{
     margin-bottom: 8px;
     padding-bottom: 8px;
     text-transform: capitalize;
 }
-
- 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .advantages-list {
     background-color: #FFFFFF;

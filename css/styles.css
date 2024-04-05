@@ -188,11 +188,8 @@ section{
 
 .advantages {}
 
-.advantages-title{
-    margin-bottom: 8px;
-    text-transform: capitalize;
-}
-.visually-hidden {
+
+.advantages-title.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -203,6 +200,8 @@ section{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
+    text-transform: capitalize;
   }
 
 .advantages-list {

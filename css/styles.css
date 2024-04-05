@@ -200,6 +200,7 @@ section{
 .advantages {}
 
 .advantages-title{
+    margin-bottom: 8px;
     padding-bottom: 8px;
     text-transform: capitalize;
 }
@@ -245,6 +246,7 @@ section{
 }
 
 .team-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;

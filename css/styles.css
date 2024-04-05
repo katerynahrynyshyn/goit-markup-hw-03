@@ -186,17 +186,13 @@ section{
 /*------------------------------------ */
 /*-----------------ADVANTAGES------------------- */
 
-.advantages {
-    margin-bottom: 8px;
-}
+.advantages {}
 
 .advantages-title{
     margin-bottom: 8px;
-
     text-transform: capitalize;
 }
 .visually-hidden {
-    margin-bottom: 8px;
     position: absolute;
     width: 1px;
     height: 1px;

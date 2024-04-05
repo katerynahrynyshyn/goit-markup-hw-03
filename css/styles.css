@@ -97,6 +97,7 @@ section{
 
 .header-menu-link {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover{
@@ -186,7 +187,7 @@ section{
 /*-----------------ADVANTAGES------------------- */
 
 .advantages {
-    
+    margin-bottom: 8px;
 }
 
 .advantages-title{
@@ -318,7 +319,6 @@ section{
 
 .portfolio-list-item {
     width: calc((100% - 2 * 24px) / 3);
-
 }
 
 .portfolio-image{
@@ -329,6 +329,7 @@ margin: 0 auto;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+
 }
 
 .portfolio-item-title{

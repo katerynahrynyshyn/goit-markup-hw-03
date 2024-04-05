@@ -51,13 +51,12 @@ section{
 /*--------------HEADER--------------- */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .container.header-container{
     display: flex;
+    align-items: center;
 }
 
 .header-nav {
@@ -98,6 +97,7 @@ section{
 .header-menu-link {
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover{
@@ -169,7 +169,6 @@ section{
     margin-top: 48px;
     border: none;
     border-radius: 4px;
-    padding: 16px 32px;
     width: 169px;
     height: 56px;
     color: #ffffff;
@@ -252,7 +251,6 @@ section{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
 }
 
 .team-list {
@@ -263,13 +261,11 @@ section{
 .team-member {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
-    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-image{
     margin: 0 auto;
-    margin-bottom: 32px;
 }
 
 .team-member-container{
@@ -335,9 +331,7 @@ margin: 0 auto;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
     color: #2e2f42;
 }
 
@@ -345,8 +339,6 @@ margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-left: 16px;
-    padding-bottom: 32px;
     color: #434455;}
 
 /*------------------------------------ */
@@ -380,7 +372,6 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    padding-top: 16px;
     color: #f4f4fd;
 }
 /*------------------------------------ */

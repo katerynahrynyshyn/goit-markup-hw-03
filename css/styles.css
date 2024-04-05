@@ -65,12 +65,15 @@ section{
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
+
 .container.header-container{
     display: flex;
 }
 
 .header-nav {
+    align-items: center;
     display: flex;
     flex-grow: 1;
 
@@ -182,6 +185,7 @@ section{
     height: 56px;
     color: #ffffff;
     background-color: #4D5AE5;
+    min-width: 169px
     }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -341,8 +345,8 @@ margin: 0 auto;
 
 .footer {
     max-height: 312px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #2e2f42;
 }
 
@@ -353,6 +357,8 @@ margin: 0 auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block; 
 
     color: #4d5ae5;}
 
